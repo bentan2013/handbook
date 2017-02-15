@@ -1,0 +1,25 @@
+详细文档
+https://git-scm.com/docs
+
+
+*Just get these from TortoiseGit client*
+
+### 切换到远端的分支
+
+```
+git.exe checkout    -b new_branch_name remotes/origin/new_branchename --
+```
+
+-b 创建一个新分支
+
+-- <pathspec> 表示想签出的文件。 此处应该表示所有文件
+
+
+### Pull 其他分支代码
+
+```
+git.exe pull -v --progress       "origin" will8372/Popup_optimization
+```
+-v git-fetch and git-merge
+
+--progress will report progress
