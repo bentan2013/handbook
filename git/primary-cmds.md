@@ -18,7 +18,23 @@ $ git config --global user.name "bentan2013"
 $ git config --global user.email "aa@bb.com"
 ```
 
+### add commit and push in one commands
 
+cd to your repo 
+add this line
+`git config alias.acp '! git commit -a -m "commit" && git push'`
+
+then use `git acp` instead of 
+```
+git commit -a -m "Changed something"
+git push
+```
+or
+```
+git add .
+git commit -a -m "commit" (do not need commit message either)
+git push
+```
 
 ### Create a new repository
 
