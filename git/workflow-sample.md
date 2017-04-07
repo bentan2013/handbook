@@ -239,3 +239,7 @@ text.txt
 
 *.[oa]
 ```
+
+### Change remote repository
+
+`git remote set-url origin new-repo-url`
