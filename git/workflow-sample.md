@@ -163,7 +163,8 @@ D:\WORK_HOME\learn-git>git checkout -- test.txt
 ```
 D:\WORK_HOME\learn-git>git reset HEAD test.txt
 
-
+git reset HEAD~n
+撤销n次commit
 
 
 D:\WORK_HOME\learn-git>vim test.txt
